@@ -7,14 +7,14 @@
 #main {
     height: 100vh;
     width: 100vw;
-    background-color: Cyan hsl(178, 100%, 50%);
+    background-color: hsl(217, 54%, 11%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #card {
-    background-color: blue;
+    background-color: hsl(216, 50%, 16%);
     width: 90%;
     height: 75%;
     max-width: 375px;
@@ -22,8 +22,8 @@
     min-height: 600px;
     border-radius: 1.75rem;
     display: grid;
-    grid-template-rows: 60% 40%;
-    row-gap: 1rem;
+    grid-template-rows: 55% 45%;
+    row-gap: 1.5rem;
     padding: 1.75rem;
 }
 
@@ -32,6 +32,11 @@
     width: 100%;
     object-fit: cover;
     border-radius: 1rem;
+}
+
+.car-text{
+    display: flex;
+    flex-direction: column;
 }
 
 
