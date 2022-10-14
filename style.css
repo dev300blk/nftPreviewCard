@@ -1,3 +1,7 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -16,7 +20,7 @@
 #card {
     background-color: hsl(216, 50%, 16%);
     width: 90%;
-    height: 75%;
+    height: 70%;
     max-width: 375px;
     max-height: 700px;
     min-height: 600px;
@@ -34,10 +38,80 @@
     border-radius: 1rem;
 }
 
-.car-text{
+.card-text {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
+
+.equilbrium p {
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.mission p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.75;
+}
+
+.ticker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ether {
+    display: flex;
+    gap: 10px;
+}
+
+.timer{
+    display: flex;
+    gap: 10px;
+}
+
+.ether p {
+    color: hsl(178, 100%, 50%);
+    font-size: 30px;
+}
+
+.ticker p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator-profile {
+    display: flex;
+    flex-direction: row;
+   
+    border-top: solid 1px  hsl(215, 51%, 70%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+
+.creator-profile p {
+    align-self: center;
+    margin-left: 1.5rem;
+}
+
+.creator{
+    color: hsl(215, 51%, 70%);
+}
+
+.name{
+    color:hsl(0, 0%, 100%);
+}
+
+.jules {
+    height: 48px;
+    width: 48px;
+    border: solid .1px hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
 
 
 
